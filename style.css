@@ -1,0 +1,127 @@
+/* /////Box Sizes///// */
+div {
+  margin: 0;
+  padding: 0;
+}
+.entire {
+  min-height: 450px;
+  width: 800px; 
+  font-family: arial;
+  /*border: 5px dotted black;*/
+}
+.nav {
+  border: 3px solid black;
+  height: 55px;
+  width: 794px; 
+  margin: 15px 0;
+  background: #FFB4B0;
+}
+.filter {
+  border: 3px solid black;
+  min-height: 375px;
+  width: 187px;
+  float: left;
+  display: inline; 
+  margin-right: 15px;
+  background: #4DD7FA;
+  padding: 0 0 0 0;
+}
+.main {
+  border: 3px solid black;
+  height: 375px;
+  width: 582px;
+  float: right;
+  background: #FEFAC0;
+  display: flex;
+  flex-direction: column;
+}
+/* /////Nav Bar Styling///// */
+.nav ul {
+  padding: 3px 0 20px 20px;
+}
+.nav li {
+  display: inline;
+  font-size: .9em
+}
+.borderlr {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-left: 2px;
+  margin-right: 3px;
+}
+/* /////Main Styling///// */
+.main h2 {
+  color: #785616;
+  padding: 0 0 0 30px;
+  font-weight: 500;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+}
+main ul {
+  margin: 0px 0px 0px -10px;
+  padding: 0 0 0 0;
+}
+.main li {
+  display: inline;
+  margin: 0px 25px 0px -10px;
+}
+.borderlr2 {
+  border-left: 1.5px solid black;
+  border-right: 1.5px solid black;
+  padding-left: 15px;
+  padding-right: 20px;
+  margin-left: 3px;
+  margin-right: 5px;
+}
+/* /////Filter Styling///// */
+.filter label, input {
+  margin: 10px 10px 10px 10px;
+  display: block;
+  font-size: .95em
+}
+.filter select {
+  display: block;
+  margin: 0 0 0 10px;
+}
+form label {
+  display: inline-block;
+}
+td input {
+  outline: 2px solid black;
+  radius: 2px;
+}
+.genre {
+  font-size: .95em;
+  padding: 0 0 0 10px;
+}
+#subbutton {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5pxpx;
+  font-family: Arial;
+  color: black;
+  font-size: 1em;
+  background: #e6e6e6;
+  padding: 2px 40px 2px;
+  border: solid black 2px;
+  text-decoration: none;
+  margin: 15px 0 10px 30px
+}
+td input {
+  margin-right: 0;
+}
+.label {
+  padding-left: 0;
+  margin-left: 0;
+}
+#selectbox1 {
+  width: 135px;
+  hight: 20px;
+}
+#selectbox2 {
+  width: 135px;
+  hight: 20px;
+}
