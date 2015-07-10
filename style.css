@@ -4,7 +4,7 @@ div {
   padding: 0;
 }
 .entire {
-  min-height: 450px;
+  height: 450px;
   width: 800px; 
   font-family: arial;
   /*border: 5px dotted black;*/
@@ -32,8 +32,8 @@ div {
   width: 582px;
   float: right;
   background: #FEFAC0;
-  display: flex;
-  flex-direction: column;
+  /*display: flex;*/
+  /*flex-direction: column;*/
 }
 /* /////Nav Bar Styling///// */
 .nav ul {
