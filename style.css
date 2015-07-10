@@ -52,6 +52,8 @@ div {
   display: inline;
   font-size: .9em
 }
+
+/*/////Left and Right Borders for Random Text/////*/
 .borderlr {
   border-left: 2px solid black;
   border-right: 2px solid black;
@@ -68,10 +70,6 @@ div {
   margin-top: 25px;
   margin-bottom: 0px;
   padding-bottom: 0;
-}
-main ul {
-  margin: 0px 0px 0px -10px;
-  padding: 0 0 0 0;
 }
 .main li {
   display: inline;
@@ -135,6 +133,8 @@ td input {
   hight: 20px;
 }
 
+/*///// Media Query Section /////*/
+
 @media screen and (max-width: 480px) {
   .entire {
     width: 100%;  
@@ -147,12 +147,14 @@ td input {
   .filter {
     width: 100%;
     min-width: 100%;
+    margin-right: 15px;
     margin-bottom: 15px;
     float: left;
   }
   .main {
     width: 100%;
     min-width: 100%;
+    margin-right: 15px;
     float: left;
     clear: both;
   }
@@ -160,5 +162,3 @@ td input {
     width: 80%;
   }
 }
-
-/* and (orientation: portrait)*/
