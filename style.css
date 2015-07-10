@@ -4,36 +4,43 @@ div {
   padding: 0;
 }
 .entire {
-  height: 450px;
-  width: 800px; 
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
   font-family: arial;
   /*border: 5px dotted black;*/
 }
 .nav {
   border: 3px solid black;
   height: 55px;
-  width: 794px; 
+  width: 100%; 
   margin: 15px 0;
   background: #FFB4B0;
+  min-width: 165px;
 }
 .filter {
   border: 3px solid black;
   min-height: 375px;
+  min-width: 165px;
+  max-width: 180px;
+  flex-direction: column;
+  flex: 1.25;
   width: 187px;
   float: left;
-  display: inline; 
   margin-right: 15px;
   background: #4DD7FA;
   padding: 0 0 0 0;
+  clear: both;
 }
 .main {
   border: 3px solid black;
-  height: 375px;
-  width: 582px;
-  float: right;
+  flex-direction: column;
+  flex: 3;
+  min-width: 165px;
   background: #FEFAC0;
-  /*display: flex;*/
-  /*flex-direction: column;*/
+  display: flex;
+  flex-direction: column;
+  clear: both;
 }
 /* /////Nav Bar Styling///// */
 .nav ul {
@@ -108,7 +115,7 @@ td input {
   padding: 2px 40px 2px;
   border: solid black 2px;
   text-decoration: none;
-  margin: 15px 0 10px 30px
+  margin: 15px 0 10px 20px
 }
 td input {
   margin-right: 0;
