@@ -52,7 +52,6 @@ div {
   display: inline;
   font-size: .9em
 }
-
 /*/////Left and Right Borders for Random Text/////*/
 .borderlr {
   border-left: 2px solid black;
@@ -62,7 +61,7 @@ div {
   margin-left: 2px;
   margin-right: 3px;
 }
-/* /////Main Styling///// */
+/* /////Main Styling (yellow box) ///// */
 .main h2 {
   color: #785616;
   padding: 0 0 0 30px;
@@ -83,7 +82,7 @@ div {
   margin-left: 3px;
   margin-right: 5px;
 }
-/* /////Filter Styling///// */
+/* /////Filter Styling (blue box) ///// */
 .filter label, input {
   margin: 10px 10px 10px 10px;
   display: block;
@@ -98,7 +97,6 @@ form label {
 }
 td input {
   outline: 2px solid black;
-  radius: 2px;
 }
 .genre {
   font-size: .95em;
@@ -107,7 +105,7 @@ td input {
 #subbutton {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  border-radius: 5pxpx;
+  border-radius: 5px;
   font-family: Arial;
   color: black;
   font-size: 1em;
@@ -115,7 +113,7 @@ td input {
   padding: 2px 40px 2px;
   border: solid black 2px;
   text-decoration: none;
-  margin: 15px 0 10px 20px
+  margin: 15px auto 10px auto;
 }
 td input {
   margin-right: 0;
@@ -126,15 +124,13 @@ td input {
 }
 #selectbox1 {
   width: 135px;
-  hight: 20px;
+  height: 20px;
 }
 #selectbox2 {
   width: 135px;
-  hight: 20px;
+  height: 20px;
 }
-
 /*///// Media Query Section /////*/
-
 @media screen and (max-width: 480px) {
   .entire {
     width: 100%;  
@@ -158,7 +154,7 @@ td input {
     float: left;
     clear: both;
   }
-  #selectbox , #selectbox2 , input[type=range] {
+  #selectbox1 , #selectbox2 , input[type=range] {
     width: 80%;
   }
 }
