@@ -32,7 +32,7 @@ for (var i = 0; i < songs.length; i++) {
 	var artistWords = songs[i].indexOf("- by");
 	var artist = songs[i].slice(artistWords + 4, albumWords);
 	console.log(artist);
-	// constructor
+	// constructor 
 	songList[i] = new Song(songName, artist, album);
 	songHolder.innerHTML += "<section class='songinfo'>" + "<h2>" + songList[i].sng + "</h2>" + "<ul>" + "<li class=info>" + "Artist: " + songList[i].person + "</li>" + "<li class='info'>" + "Album: " + songList[i].record + "</li>" + "</ul>" + "</section>" ;
 }
