@@ -34,5 +34,5 @@ for (var i = 0; i < songs.length; i++) {
 	console.log(artist);
 	// constructor
 	songList[i] = new Song(songName, artist, album);
-	songHolder.innerHTML += "<h2>" + songList[i].sng + "</h2>" + "<p class=info>" + "Artist: " + songList[i].person + "</p>" + "<p class='info'>" + "Album: " + songList[i].record + "</p>";
+	songHolder.innerHTML += "<section class='songinfo'>" + "<h2>" + songList[i].sng + "</h2>" + "<ul>" + "<li class=info>" + "Artist: " + songList[i].person + "</li>" + "<li class='info'>" + "Album: " + songList[i].record + "</li>" + "</ul>" + "</section>" ;
 }

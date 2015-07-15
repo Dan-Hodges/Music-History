@@ -9,7 +9,9 @@ div {
   display: flex;
   flex-flow: row wrap;
   font-family: arial;
-  max-width: 800px;
+  max-width: 1000px;
+  margin-right : 15px;
+  margin-left: 15px;
   /*border: 5px dotted black;*/
 }
 .nav {
@@ -75,8 +77,23 @@ div {
   display: inline;
   margin: 0px 25px 0px -10px;
 }
+.main ul {
+  text-align: center;
+}
+.main section:first-child {
+  font-weight: bold;
+}
+.main section:first-child h2 {
+  font-weight: 600;
+}
+.main section:nth-child(2n+0) {
+  background: SeaShell;
+}
+.main section:nth-child(2n+1) {
+  background: MintCream;
+}
 .info {
-  margin: 10px;
+  margin: 10px auto;
 }
 .borderlr2 {
   border-left: 1.5px solid black;
