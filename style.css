@@ -103,6 +103,11 @@ div {
   margin-left: 3px;
   margin-right: 5px;
 }
+button {
+  height: 30px;
+  width: 60px;
+  float: bottom;
+}
 /* /////Filter Styling (blue box) ///// */
 .filter label, input {
   margin: 10px 10px 10px 10px;
